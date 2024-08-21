@@ -597,9 +597,6 @@ require('lazy').setup({
           },
         },
         --ADDED SERVERS
-        bashls = { filetypes = { 'sh', 'zsh' } },
-        dockerls = {},
-        jsonls = {},
         marksman = {},
       }
 
