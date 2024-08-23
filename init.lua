@@ -905,7 +905,7 @@ require('lazy').setup({
   -- require 'kickstart.plugins.debug',
   -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
-  require 'kickstart.plugins.autopairs',
+  -- require 'kickstart.plugins.autopairs'
   -- require 'kickstart.plugins.neo-tree',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
@@ -938,6 +938,7 @@ require('lazy').setup({
 })
 -- remap eol from alt-gr to shift, matches US keyboard
 vim.keymap.set('n', '¤', '$')
-
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
