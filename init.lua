@@ -940,5 +940,8 @@ require('lazy').setup({
 vim.keymap.set('n', '¤', '$')
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+vim.o.autoindent = true
+-- CURRENTLY in after/go.lua set { to autoinsert }
+--vim.keymap.set('i', '{', '{}<Esc>ha')
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
